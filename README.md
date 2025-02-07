@@ -1,4 +1,4 @@
-# UKuMaster
+# UKuMaster -  https://claude.site/artifacts/d001b35d-d7db-480f-ac02-99c025b3d3f2
 Ukumaster MVP flow &amp; documentation
 Overview
 UKU Master is a comprehensive mobile application designed to help users learn and master the ukulele. Whether you're a beginner or an advanced player, UKU Master provides personalized learning experiences, real-time tuning assistance, and an extensive song library.
