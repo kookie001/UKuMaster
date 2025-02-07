@@ -1,0 +1,45 @@
+Mermaid - https://claude.site/artifacts/d001b35d-d7db-480f-ac02-99c025b3d3f2
+Use the code blow  to generate or edit the flow in any Mermaid Editor 
+
+flowchart TD
+    A[Landing Page] --> B{User Status}
+    B -->|New User| C[Sign Up]
+    B -->|Existing User| D[Login]
+    
+    C --> E[Auth Process]
+    D --> E
+    E -->|Success| F[Home Dashboard]
+    
+    F --> G{Main Features}
+    
+    G --> H[Ukulele Tuner]
+    H --> H1[Audio Input]
+    H --> H2[Tuning Analysis]
+    H --> H3[Visual Feedback]
+    
+    G --> I[Learning Page]
+    I --> I1[Beginner Level]
+    I --> I2[Intermediate Level]
+    I --> I3[Advanced Level]
+    
+    G --> J[Song Library]
+    J --> J1[Browse Songs]
+    J --> J2[Upload Songs]
+    J --> J3[Favorites]
+    J --> J4[Search]
+    
+    G --> K[Settings/Profile]
+    K --> K1[Profile Management]
+    K --> K2[Notifications]
+    K --> K3[App Settings]
+    K --> K4[Progress Tracking]
+    
+    H1 --> L[Device Permissions]
+    J2 --> L
+    
+    style A fill:#4a90e2
+    style F fill:#4a90e2
+    style H fill:#50C878
+    style I fill:#50C878
+    style J fill:#50C878
+    style K fill:#50C878
